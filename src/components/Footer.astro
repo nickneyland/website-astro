@@ -1,0 +1,22 @@
+---
+import Social from './Social.astro';
+---
+
+<style>
+    footer {
+        display: flex;
+        gap: 1rem;
+        margin-top: 2rem;
+    }
+    a {
+      padding: 0.5rem 1rem;
+      color: white;
+      background-color: #4c1d95;
+      text-decoration: none;
+    }
+  </style>
+
+<footer>
+        <Social platformOne="Github" username="nickneyland" />
+        <a href={`https://www.linkedin.com/in/nick-neyland/`} target="_blank">LinkedIn</a>
+</footer>
