@@ -1,2 +1,1 @@
-# website-astro
-Website rebuild in Astro, 2024
+# Website build in Astro 2024
